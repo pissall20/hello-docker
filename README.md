@@ -24,9 +24,13 @@ Following is the directory structure of this project.
 ```
 
 **Dockerfile**: Contains how the Django application is dockerized
+
 **docker-compose.yml**: Contains services info for our app, and other related services like nginx, db, etc. 
+
 **config**: This folder contains config for various services like nginx, and the database. You can use multiple databases for a Django app and have different environments set up for the same.
+
 **Pipfile**: We used Pipenv to manage the requirements of the project, so that no extra packages get installed.
+
 **settings.py**: DB settings in this file get updated according to the services in the docker-compose.yml (Left comments wherever needed)
 
 
